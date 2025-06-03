@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe - Dark Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Tic Tac Toe</h1>
+            <div class="score-board">
+                <div class="score">
+                    <span class="player-x">Player X: <span id="scoreX">0</span></span>
+                    <span class="draws">Draws: <span id="scoreDraw">0</span></span>
+                    <span class="player-o">Player O: <span id="scoreO">0</span></span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="game-modes">
+                <button class="mode-btn active" id="twoPlayerMode">Two Players</button>
+                <button class="mode-btn" id="aiMode">vs AI</button>
+            </div>
+
+            <div class="game-info">
+                <div class="current-player">
+                    <span id="currentPlayerText">Player X's Turn</span>
+                </div>
+                <div class="difficulty-selector" id="difficultySelector" style="display: none;">
+                    <label for="difficulty">AI Difficulty:</label>
+                    <select id="difficulty">
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard" selected>Hard</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="game-board" id="gameBoard">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+
+            <div class="game-controls">
+                <button class="control-btn" id="resetGame">Reset Game</button>
+                <button class="control-btn" id="resetScore">Reset Score</button>
+            </div>
+
+            <div class="game-result" id="gameResult">
+                <div class="result-content">
+                    <h2 id="resultText"></h2>
+                    <button class="play-again-btn" id="playAgain">Play Again</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Made by <a href="https://github.com/syrspondon" target="_blank">syrspondon</a> for Tic Tac Toe lovers</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
