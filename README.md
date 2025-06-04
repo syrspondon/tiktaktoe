@@ -31,6 +31,10 @@ A beautiful, minimalist dark-themed Tic Tac Toe game with AI opponent. Built wit
 - Touch-friendly mobile interface
 - Keyboard navigation (ESC to close modals)
 
+## 🚀 Live Demo
+
+**[Live Demo](https://syrspondon.github.io/tiktaktoe/)**
+
 ## 🤖 How This Game Was Created
 
 This Tic Tac Toe game was entirely created using **Cursor** IDE with **Claude 4.0** AI assistance. The development process was streamlined and efficient, demonstrating the power of AI-assisted coding.
