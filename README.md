@@ -2,35 +2,6 @@
 
 A beautiful, minimalist dark-themed Tic Tac Toe game with AI opponent. Built with vanilla HTML, CSS, and JavaScript.
 
-## ✨ Features
-
-### 🎯 Game Modes
-- **Two Players**: Classic local multiplayer mode
-- **vs AI**: Challenge the computer with multiple difficulty levels
-
-### 🤖 AI Difficulty Levels
-- **Easy**: Random moves for casual play
-- **Medium**: Mix of strategic and random moves
-- **Hard**: Unbeatable AI using minimax algorithm
-
-### 🎨 Design Features
-- **Minimalist Dark Theme**: Easy on the eyes with beautiful gradients
-- **Mobile Responsive**: Optimized for all screen sizes
-- **Smooth Animations**: Engaging visual feedback
-- **Glassmorphism UI**: Modern design with backdrop blur effects
-
-### 📊 Score Tracking
-- Persistent score tracking (saved in browser localStorage)
-- Separate counters for X wins, O wins, and draws
-- Scores persist until manually reset or browser data is cleared
-
-### 🔧 Interactive Features
-- Real-time game state updates
-- Winning cell highlighting
-- Modal result display
-- Touch-friendly mobile interface
-- Keyboard navigation (ESC to close modals)
-
 ## 🚀 Live Demo
 
 **[Live Demo](https://syrspondon.github.io/tiktaktoe/)**
@@ -66,6 +37,35 @@ score will be visible untill refreshed. lets go.
 - **Best Practices**: Clean code structure, accessibility features, and documentation
 
 This project showcases how AI-assisted development can rapidly produce production-ready code with modern features and professional quality.
+
+## ✨ Features
+
+### 🎯 Game Modes
+- **Two Players**: Classic local multiplayer mode
+- **vs AI**: Challenge the computer with multiple difficulty levels
+
+### 🤖 AI Difficulty Levels
+- **Easy**: Random moves for casual play
+- **Medium**: Mix of strategic and random moves
+- **Hard**: Unbeatable AI using minimax algorithm
+
+### 🎨 Design Features
+- **Minimalist Dark Theme**: Easy on the eyes with beautiful gradients
+- **Mobile Responsive**: Optimized for all screen sizes
+- **Smooth Animations**: Engaging visual feedback
+- **Glassmorphism UI**: Modern design with backdrop blur effects
+
+### 📊 Score Tracking
+- Persistent score tracking (saved in browser localStorage)
+- Separate counters for X wins, O wins, and draws
+- Scores persist until manually reset or browser data is cleared
+
+### 🔧 Interactive Features
+- Real-time game state updates
+- Winning cell highlighting
+- Modal result display
+- Touch-friendly mobile interface
+- Keyboard navigation (ESC to close modals)
 
 ## 🚀 How to Play
 
